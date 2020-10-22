@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="My Protofolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1976d2">
+
+  <title>MYPortfolio | Firly Afriansyah</title>
+
+  <link rel="apple-touch-icon" href="./asset/icons/apps_icon_512.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Materialize Style -->
+  <link rel="stylesheet" href="./asset/css/materialize/materialize.min.css">
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <nav class="blue darken-2 " role="navigation">
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo right"><b>MY</b>PORTFOLIO</a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#8801;</a>
+      <ul class="topnav left hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container" id="body-content"></div>
+
+  <!-- Footer -->
+  <div class="footer"></div>
+
+  <!-- Javascript -->
+  <script src="./asset/js/materialize/materialize.min.js"></script>
+  <script type="module" src="./index.js"></script>
+
+  <!-- <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+      })
+    } else {
+      alert("Service Worker belum didukung oleh browser ini!")
+    }
+  </script> -->
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "My Portfolio",
+  "short_name": "MYPortfolio",
+  "description": "Aplikasi Portfolio berbasis SPA dan PWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1976d2",
+  "theme_color": "#1976d2",
+  "icons": [{
+      "src": "./asset/icons/apps_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./asset/icons/apps_icon_384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./asset/icons/apps_icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./asset/icons/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

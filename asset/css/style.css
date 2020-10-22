@@ -1,0 +1,186 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#body-content {
+  min-height: 85%;
+  position: relative;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 32px;
+  font-family: sans-serif, cursive;
+}
+
+
+/* Navigation */
+.nav-wrapper {
+  padding: 0 20px;
+}
+
+.nav-wrapper .brand-logo {
+  margin-right: 20px;
+}
+
+nav .sidenav-trigger {
+  margin: 0;
+}
+
+.sidenav .user-view .circle {
+  display: inline;
+}
+
+.sidenav-trigger {
+  font-size: 32px;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.user-view img {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  object-fit: cover;
+}
+
+.user-view p {
+  display: inline;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Home Page */
+.home-img-wrapper {
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.home-img {
+  width: 70%;
+  margin: 20px;
+}
+
+.home-desc {
+  font-size: 32px;
+  font-family: sans-serif, cursive;
+  margin-bottom: 20px;
+}
+
+/* Profile Page */
+.pro {
+  margin-top: 40px;
+  min-height: 100%;
+}
+
+.pro-img {
+  text-align: center;
+}
+
+.pro-img img {
+  margin-top: 40px;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0px 0px 8px rgb(73, 73, 73);
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.pro-img .name {
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: sans-serif, cursive;
+}
+
+.pro-img .desc {
+  margin-top: 20px;
+  font-family: sans-serif, cursive;
+}
+
+.pro-img .media-sosial {
+  margin-top: 20px;
+}
+
+.pro-bio table {
+  margin-left: 20px;
+}
+
+/* Education Page */
+.collapsible-header img {
+  margin-right: 15px;
+}
+
+.collapsible-header p {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Work Page */
+.work .card .card-image img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Skills Page */
+.skills th {
+  width: 20%;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.skills td {
+  padding-right: 40px;
+}
+
+/* Footer */
+.page-footer {
+  padding: 0;
+  background-color: #358adf;
+}
+
+.footer-copyright p {
+  text-align: center;
+  color: white;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 992px) {
+
+  /* Navigation */
+
+  .sidenav .user-view {
+    margin: 20px 10px;
+  }
+
+  .user-view p {
+    color: black;
+  }
+
+  /* Home Page */
+  .home-img-wrapper {
+    margin-top: 20px;
+  }
+
+  /* Profile Page */
+  .pro-img img {
+    margin-top: 0;
+  }
+
+  .pro-bio table {
+    margin: 40px auto;
+    width: 100%;
+  }
+}
